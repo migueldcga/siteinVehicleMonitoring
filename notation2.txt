@@ -1,0 +1,6 @@
+- criar grafico com 3 linhas 
+- lebrando que é so um arquivo para todos
+
+- gravar um video com o acelerometro calibrado so para termos um teste coerente com a imagem 3d em rotação
+
+- 
