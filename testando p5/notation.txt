@@ -1,0 +1,15 @@
+accelerometer 
+
+    - modulo
+    - each axe 
+
+orientation 
+
+    - each axe 
+    
+position 
+
+    - gps markers 
+
+ver algo sobre autonomia 
+e o que fazemos para que ele dure mais tempo de bateria?

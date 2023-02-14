@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projet</title>
+        <link href="style.css" rel="stylesheet"/>
+
+    </head>
+    <body>
+        <div id="containerSpeed" class="container">
+            <p><b>Graphique d'Accélération</b></p>
+           
+            <input type="file" id="btnImportSpeed"/>
+            <br/><br/>
+            <canvas id="graphSpeed"></canvas>
+        </div>
+        
+        <div id="containerOrient" class="container">
+            <p><b>Graphique d'Orientation</b></p>
+           
+            <input type="file" id="btnImportOrient"/>
+            <br/><br/>
+            <canvas id="graphOrient"></canvas>
+        </div>
+
+        <div id="containerAcel_axes" class="container">
+            <p><b>Graphique d'Acelleration pour chaque axe</b></p>
+           
+            <input type="file" id="btnImportAcel_axes"/>
+            <br/><br/>
+            <canvas id="graphAcel_axes"></canvas>
+        </div>
+            
+        <div id="containerPosition" class="container">
+            <p><b>My Map</b></p>
+         
+
+        </div>
+      
+        <div id="containerTeste3D" class="container">
+            <p><b>3D Model ==========></b></p>
+         
+        
+            <br/><br/>
+
+        </div>
+       
+        
+        <!-- <script scr = "sketch.js"></script> -->
+
+        <script type="text/javascript" src="modules/jquery-3.6.3.min.js"></script>
+        <script type="text/javascript" src="modules/chart.min.js"></script>
+       
+       
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+        <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnnserTzPEzsLbo50RffCWOTIkf3C0K98&callback=initMap"
+        defer></script>
+        <script type="text/javascript" src="utils.js"></script>
+    </body>
+</html>
